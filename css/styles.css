@@ -71,4 +71,14 @@ ul {
 .site-header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: var(--space-md);
 }
+
+/* Estilo logo */
+.logo {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-primary-dark);
+}
+
