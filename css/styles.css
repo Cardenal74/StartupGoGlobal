@@ -172,4 +172,60 @@ ul {
 .contacto p {
     margin-top: 0;
     margin-bottom: var(--space-md);
+    color: var(--color-text-soft);
+}
+
+form {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-md);
+    box-shadow: var(--shadow-soft);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+}
+
+form div {
+    margin-bottom: var(--space-md);
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--color-border);
+    border-radius:  var(--radius-sm);
+    font: inherit;
+}
+
+small {
+    display: block;
+    margin-top: var(--space-xs);
+    color: var(--color-text-soft);
+}
+
+button {
+    background-color: var(--color-accent);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: var(--radius-sm);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #ea580c;
+    
 }
